@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2e547015-fd29-4c17-9751-b0ed164b74ff/dfpc1vp-7c8e97a3-863a-4a78-ae26-149dcf296400.jpg/v1/fill/w_1280,h_800,q_75,strp/yugioh_25th_anniversary_pc_wallpaper_2560x1600px_by_crimsondragon01_dfpc1vp-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvMmU1NDcwMTUtZmQyOS00YzE3LTk3NTEtYjBlZDE2NGI3NGZmXC9kZnBjMXZwLTdjOGU5N2EzLTg2M2EtNGE3OC1hZTI2LTE0OWRjZjI5NjQwMC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.mvNSuci8QAG3E0r03jz7vSxHHxAzLqNbzOxuZGkcQaU);
+    background-size: auto;
+}
+
+.mae {
+    width: 500px;
+    height: 500px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 17px;
+    border-style: ridge;
+}
+.cima {
+    width: 90%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.baixo {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.t1 {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tt1, .tt2 {
+    width: 40%;
+    height: 100p;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+input {
+    width: 95%;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    border-style: groove;
+    border-radius: 7px;
+}
+h2 {
+    margin: 1px;
+}
+img {
+    width: 90%;
+    height: 95%;
+    border: solid;
+}
+.imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.portaIMG {
+    background-color: red;
+    border: solid;
+    width: 42%;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    font-style: oblique;
+    font: bold;
+}
